@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF9DA;
+}
+
+.container {
+    width: 100%;
+    height: 120vh;
+    margin: 0 auto;
+    background-color: #FFF9DA;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 30vh;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Knewave', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    color: #B52525;
+    padding-left: 3%;
+}
+
+.burger-logo {
+    padding-left: 5%;
+}
+
+main {
+    display: flex;
+}
+
+.div-one {
+    width: 20%;
+    height: 75vh;
+    background-color: #B52525;
+    margin-left: 4%;
+    border-radius: 25px;
+}
+
+.div-1 {
+    display: flex;
+    width: 96%;
+    height: 28vh;
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+    margin: 0 auto;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.vopper {
+    width: 50%;
+}
+
+.div-2 {
+    display: block;
+    width: 96%;
+    height: 45vh;
+    background-color: #f2f2f2;
+    border-radius: 0 0 25px 25px;
+    margin: 0 auto;
+}
+
+.h3-one {
+    font-size: 32px;
+    font-weight: 900;
+    color:#B52525;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.p-one {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10%;
+}
+
+.span-one {
+    color: #DBC23E;
+}
+
+.pm-one {
+    display: flex;
+    width: 45%;
+    height: 5vh;
+    background-color: #B52525;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 6px;
+}
+
+.minus-one {
+    text-align: center;
+    line-height: 5vh;
+    width: 33%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+
+.minus-one:hover {
+    background-color: #B52525;
+    color: white;
+}
+
+.minus-text-one {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.counter-one {
+    text-align: center;
+    line-height: 5vh;
+    width: 34%;
+    height: 5vh;
+    background-color: white;
+}
+
+.counter-text-one {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.plus-one {
+    text-align: center;
+    line-height: 5vh;
+    width: 33%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.plus-one:hover {
+    background-color: #B52525;
+    color: white;
+}
+
+.plus-text-one {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.button-one {
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    margin-top: 15%;
+    margin-left: 10%;
+    border: 5px solid #B52525;
+    border-radius: 10px;
+}
+
+.button-one:hover {
+    background-color: #B52525;
+}
+
+.button-text-one {
+    text-align: center;
+    line-height: 7vh;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B52525;
+}
+
+.button-text-one:hover {
+    color: white;
+}
+
+.div-two {
+    width: 20%;
+    height: 75vh;
+    background-color: #B52525;
+    margin-left: 4%;
+    border-radius: 25px;
+}
+
+.div-3 {
+    display: flex;
+    width: 96%;
+    height: 28vh;
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+    margin: 0 auto;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.steykhaus {
+    width: 50%;
+}
+
+.div-4 {
+    width: 96%;
+    height: 45vh;
+    background-color: #f2f2f2;
+    border-radius: 0 0 25px 25px;
+    margin: 0 auto;
+}
+
+.h3-two {
+    font-size: 32px;
+    font-weight: 900;
+    color:#B52525;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.p-two {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10%;
+}
+
+.span-two {
+    color: #DBC23E;
+}
+
+.pm-two {
+    display: flex;
+    width: 45%;
+    height: 5vh;
+    background-color: #B52525;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 6px;
+}
+
+.minus-two {
+    text-align: center;
+    line-height: 5vh;
+    width: 33%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+
+.minus-two:hover {
+    background-color: #B52525;
+    color: white;
+}
+
+.minus-text-two {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.counter-two {
+    text-align: center;
+    line-height: 5vh;
+    width: 34%;
+    height: 5vh;
+    background-color: white;
+}
+
+.counter-text-two {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.plus-two {
+    text-align: center;
+    line-height: 5vh;
+    width: 33%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.plus-two:hover {
+    background-color: #B52525;
+    color: white;
+}
+
+.plus-text-two {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.button-two {
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    margin-top: 15%;
+    margin-left: 10%;
+    border: 5px solid #B52525;
+    border-radius: 10px;
+}
+
+.button-two:hover {
+    background-color: #B52525;
+}
+
+.button-text-two {
+    text-align: center;
+    line-height: 7vh;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B52525;
+}
+
+.button-text-two:hover {
+    color: white;
+}
+
+.div-three {
+    width: 20%;
+    height: 75vh;
+    background-color: #B52525;
+    margin-left: 4%;
+    border-radius: 25px;
+}
+
+.div-5 {
+    display: flex;
+    width: 96%;
+    height: 28vh;
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+    margin: 0 auto;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.krispy-chicken {
+    width: 50%;
+}
+
+.div-6 {
+    width: 96%;
+    height: 45vh;
+    background-color: #f2f2f2;
+    border-radius: 0 0 25px 25px;
+    margin: 0 auto;
+}
+
+.h3-three {
+    font-size: 32px;
+    font-weight: 900;
+    color:#B52525;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.p-three {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10%;
+}
+
+.span-three {
+    color: #DBC23E;
+}
+
+.pm-three {
+    display: flex;
+    width: 45%;
+    height: 5vh;
+    background-color: #B52525;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 6px;
+}
+
+.minus-three {
+    text-align: center;
+    line-height: 5vh;
+    width: 33%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+
+.minus-three:hover {
+    background-color: #B52525;
+    color: white;
+}
+
+.minus-text-three {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.counter-three {
+    text-align: center;
+    line-height: 5vh;
+    width: 34%;
+    height: 5vh;
+    background-color: white;
+}
+
+.counter-text-three {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.plus-three {
+    text-align: center;
+    line-height: 5vh;
+    width: 33%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.plus-three:hover {
+    background-color: #B52525;
+    color: white;
+}
+
+.plus-text-three {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.button-three {
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    margin-top: 15%;
+    margin-left: 10%;
+    border: 5px solid #B52525;
+    border-radius: 10px;
+}
+
+.button-three:hover {
+    background-color: #B52525;
+}
+
+.button-text-three {
+    text-align: center;
+    line-height: 7vh;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B52525;
+}
+
+.button-text-three:hover {
+    color: white;
+}
+
+.div-four {
+    width: 13%;
+    height: 30vh;
+    background-color: white;
+    margin-left: 4%;
+    border: 5px solid #B52525;
+    border-radius: 25px;
+}
+
+.your-order {
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+    border-radius: 25px 25px 0 0;
+}
+
+.order-text {
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 10%;
+    line-height: 5vh;
+}
+
+.basket-empty {
+    display: flex;
+}
+
+.empty-div {
+    width: 75%;
+    height: 6vh;
+    background-color: gray;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    border-radius: 7px;
+}
+
+.empty-text {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    color: white;
+    line-height: 6vh;
+}
+
+.burger-price-block {
+    display: block;
+}
+
+.burger-price {
+    display: flex;
+    width: 100%;
+}
+
+.burger-price-logo {
+    display: flex;
+    width: 40%;
+    height: 10vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.vopper-price {
+    width: 75%;
+}
+
+.burger-price-text {
+    width: 60%;
+    height: 10vh;
+    background-color: white;
+}
+
+.vopper-text {
+    font-size: 16px;
+    font-weight: 900;
+    color: #B52525;
+}
+
+.price-block {
+    display: flex;
+}
+
+.pm-four {
+    display: flex;
+    width: 45%;
+    height: 2vh;
+    background-color: #B52525;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+
+.minus-four {
+    text-align: center;
+    line-height: 2vh;
+    width: 33%;
+    height: 2vh;
+    background-color: #F5F5F5;
+    border-radius: 3px 0 0 3px;
+}
+
+.minus-four:hover {
+    background-color: #B52525;
+    color: white;
+}
+
+.minus-text-four {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.counter-four {
+    text-align: center;
+    line-height: 2vh;
+    width: 34%;
+    height: 2vh;
+    background-color: #F5F5F5;
+}
+
+.counter-text-four {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.plus-four {
+    text-align: center;
+    line-height: 2vh;
+    width: 33%;
+    height: 2vh;
+    background-color: #F5F5F5;
+    border-radius: 0 3px 3px 0;
+}
+
+.plus-four:hover {
+    background-color: #B52525;
+    color: white;
+}
+
+.plus-text-four {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.price {
+    font-size: 12px;
+    font-weight: 400;
+    color: #DBC23E;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+hr {
+    width: 80%;
+    height: 3px;
+    background-color: #B52525;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.burger-footer {
+    width: 100%;
+    height: 13vh;
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+}
+
+.total-price {
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.span-price {
+    color: #DBC23E;
+}
+
+.total-price-button {
+    width: 45%;
+    height: 3vh;
+    background-color: #B52525;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.total-price-button:hover {
+    background-color: #930000;
+}
+
+.total-price-text {
+    text-align: center;
+    font-size: 8px;
+    font-weight: 100;
+    color: white;
+    line-height: 3vh;
+}
+
+.none {
+    display: none;
+}
